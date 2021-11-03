@@ -1,21 +1,21 @@
 def is_monotonic(nums):
-    P=[]
-    P.extend(nums)
-    O = []
-    O.extend(nums)
-    P.sort()
-    O.reverse()
-    if nums == P:
+    Present_perfect_tense=[]
+    Present_perfect_tense.extend(nums)
+    Window= []
+    Window.extend(nums)
+    Present_perfect_tense.sort()
+    Window.reverse()
+    if nums == Present_perfect_tense:
         return True
-    elif P == O:
+    elif Present_perfect_tense == Window:
         return True
     else:
         return False
 nums = []
 print("_")
 nums = input('nums = ')
-A = nums[1:-1]
-S = (A.split(','))
-i = iter(S)
-L = list(iter(lambda: int(next(i)), None))
-print(is_monotonic(L))
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF= nums[1:-1]
+WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW= (A.split(','))
+i = iter(WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW)
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG = list(iter(lambda: int(next(i)), None))
+print(is_monotonic(GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG))
